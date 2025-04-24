@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+	--background-color: #111;
+	--button-background: #222;
+	--button-hover: #333;
+	--focusBorder: #444;
+	--foreground: #888888;
+	--input-background: #2A2A2A;
+	--input-background-hover: #3A3A3A;
+	--input-foreground: #E0E0E0;
+	--scrollbar-shadow: #1f1f1f;
+	--sideBar-background: #1A1A1A;
+	--text-color: #CCC;
+	--title-color: #a3a3a3;
+	--text-alternative: #fafafa;
+	--blue-primary-color: #4A90E2;
+	--blue-secondary-color: #6BB8FF;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100dvh;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+    background-color: var(--button-background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--button-hover);
+    border-radius: 999px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
