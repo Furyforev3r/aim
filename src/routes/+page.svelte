@@ -167,9 +167,14 @@
 
 	@media (max-width: 768px) {
 		.container {
+			width: 100%;
 			flex-direction: column;
 			text-align: center;
 			gap: 1.2rem;
+		}
+
+		.trainingsContainer {
+			width: 100%;
 		}
 
 		.trainings {
