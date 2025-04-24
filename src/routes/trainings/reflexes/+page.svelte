@@ -164,5 +164,9 @@
             width: 100%;
             height: 300px;
         }
+        
+		.app {
+			align-items: center;
+		}
     }
 </style>

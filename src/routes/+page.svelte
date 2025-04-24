@@ -166,17 +166,18 @@
 	}
 
 	@media (max-width: 768px) {
+		.app {
+			align-items: center;
+		}
 		.container {
 			width: 100%;
 			flex-direction: column;
 			text-align: center;
-			align-items: center;
 			gap: 1.2rem;
 		}
 
 		.trainingsContainer {
 			width: 100%;
-			align-items: center;
 		}
 
 		.trainings {
