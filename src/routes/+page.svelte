@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { goto } from "$app/navigation"
+	import { goto } from "$app/navigation"
 	import Icon from "@iconify/svelte"
 </script>
 
@@ -163,5 +163,38 @@
 
 	button:hover {
 		background-color: var(--blue-secondary-color);
+	}
+
+	@media (max-width: 768px) {
+		.container {
+			flex-direction: column;
+			text-align: center;
+			gap: 1.2rem;
+		}
+
+		.trainings {
+			flex-direction: column;
+			gap: 1.5rem;
+		}
+
+		.aim {
+			width: 90%;
+		}
+
+		h1 {
+			font-size: 2.5rem;
+		}
+
+		h2 {
+			font-size: 1.8rem;
+		}
+
+		.content p {
+			font-size: 1rem;
+		}
+
+		.bar {
+			width: 80%;
+		}
 	}
 </style>
