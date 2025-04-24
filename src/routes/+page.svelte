@@ -40,7 +40,7 @@
 						Reflexes is a fast-paced game that tests your reaction time and
 						accuracy. Click on the color as quickly as possible to get your time.
 					</p>
-					<button onclick={() => goto("/reflexes")}><Icon icon="mdi:play" width="24" height="24" />Play</button>
+					<button onclick={() => goto("/trainings/reflexes")}><Icon icon="mdi:play" width="24" height="24" />Play</button>
 				</div>
 				
 				<div class="aim">
@@ -49,7 +49,7 @@
 						Tracking is a game designed to improve your ability to follow moving
 						targets with precision. Stay focused and keep the target in your sights!
 					</p>
-					<button onclick={() => goto("/tracking")}><Icon icon="mdi:play" width="24" height="24" />Play</button>
+					<button onclick={() => goto("/about")}><Icon icon="mdi:play" width="24" height="24" />Play</button>
 				</div>
 			</div>
 		</div>
