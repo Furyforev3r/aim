@@ -166,9 +166,6 @@
 	}
 
 	@media (max-width: 768px) {
-		.app {
-			align-items: center;
-		}
 		.container {
 			width: 100%;
 			flex-direction: column;
