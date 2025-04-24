@@ -2,8 +2,8 @@
     <div class="footer">
         <p>© 2025 FuryForever. All rights reserved.</p>
         <p>
-        <a href="/privacy-policy">Privacy Policy</a> |
-        <a href="/terms-of-service">Terms of Service</a>
+        <a href="/about">Privacy Policy</a> |
+        <a href="/about">Terms of Service</a>
         </p>
     </div>
 </footer>
