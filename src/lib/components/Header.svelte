@@ -3,20 +3,21 @@
 
     <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/">Training</a></li>
-        <li><a href="/">Leaderboard</a></li>
-        <li><a href="/about">about</a></li>
+        <li><a href="/" class="hidden">Training</a></li>
+        <li><a href="/" class="hidden">Leaderboard</a></li>
+        <li><a href="/about">About</a></li>
     </ul>
 </header>
 
 <style>
     header {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         padding: 1rem;
         background: var(--button-background);
         border-bottom: 1px solid var(--blue-primary-color);
+        flex-wrap: wrap;
     }
 
     h1 {
@@ -46,5 +47,11 @@
     a:hover {
         color: var(--title-color);
         text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+        .hidden {
+            display: none;
+        }
     }
 </style>
