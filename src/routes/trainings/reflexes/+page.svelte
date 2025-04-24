@@ -68,6 +68,11 @@
     $: averageTime = times.length > 0 ? Math.round(times.reduce((a, b) => a + b, 0) / times.length) : 0
 </script>
 
+<svelte:head>
+	<title>Aim - Reflexes</title>
+	<meta name="description" content="Aim trainer" />
+</svelte:head>
+
 <div class="app">
     <h1>Reflexes Training!</h1>
     {#if showResults}

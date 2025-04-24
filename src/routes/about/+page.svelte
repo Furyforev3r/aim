@@ -2,6 +2,11 @@
     import Icon from "@iconify/svelte"
 </script>
 
+<svelte:head>
+	<title>Aim - About</title>
+	<meta name="description" content="Aim trainer" />
+</svelte:head>
+
 <section>
     <Icon icon="eos-icons:three-dots-loading" width="200px" />
 </section>
