@@ -158,4 +158,11 @@
         border: 1px solid var(--blue-primary-color);
         padding: 1rem 2rem;
     }
+    
+    @media (max-width: 600px) {
+        .reflex {
+            width: 100%;
+            height: 100%;
+        }
+    }
 </style>
