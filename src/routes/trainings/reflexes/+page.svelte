@@ -162,7 +162,7 @@
     @media (max-width: 600px) {
         .reflex {
             width: 100%;
-            height: 300%;
+            height: 300px;
         }
     }
 </style>
