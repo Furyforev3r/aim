@@ -11,7 +11,8 @@
 
 <style>
     header {
-        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
