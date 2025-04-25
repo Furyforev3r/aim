@@ -98,7 +98,6 @@
 
 <style>
     .app {
-		width: calc(100% - 6rem);
         margin: 3rem;
         display: grid;
         place-items: center;

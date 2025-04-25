@@ -58,7 +58,6 @@
 
 <style>
 	.app {
-		width: calc(100% - 4rem);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
